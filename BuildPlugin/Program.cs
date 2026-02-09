@@ -30,7 +30,7 @@ namespace BuildPlugin
                 },
                 Dirs = new Dir[]
                 {
-                    new InstallDir(@"%AppDataFolder%\Autodesk\Revit\Addins\2024\",
+                    new InstallDir(@"%AppData%\Autodesk\Revit\Addins\2024\",
                         new File(@"%USERPROFILE%\source\repos\Vinesence\Reinforcement\Reinforcement\Reinforcement.addin"),
                         new Dir(@"ENSPlugin",
                         new DirFiles(@"%USERPROFILE%\source\repos\Vinesence\Reinforcement\Reinforcement\bin\Debug\*.*"))),
