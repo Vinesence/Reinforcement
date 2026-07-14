@@ -120,7 +120,7 @@ namespace Reinforcement
                             familyInstance.LookupParameter("Объемный вид").Set(1);
                             familyInstance.LookupParameter("Вид с торца").Set(0);
                             familyInstance.LookupParameter("Заливка").Set(0);
-                            familyInstance.LookupParameter("Радиус основы").Set(diameterBend / 2);
+                            familyInstance.LookupParameter("Диаметр основы").Set(diameterBend);
                             familyInstance.LookupParameter("• Диаметр").Set(RevitAPI.ToFoot(6));
                             familyInstance.LookupParameter("Длина отгиба").Set(RevitAPI.ToFoot(lengthEnds));
                             doc.Delete(detailLine.Id);

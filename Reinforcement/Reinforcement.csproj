@@ -78,14 +78,25 @@
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xaml" />
     <Reference Include="System.Xml" />
+    <Reference Include="Triangle, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Speckle.Triangle.1.0.0\lib\netstandard2.0\Triangle.dll</HintPath>
+    </Reference>
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AlignViewInSheets.cs" />
     <Compile Include="App.cs" />
     <Compile Include="ChangeTextFontInSchedule.cs" />
     <Compile Include="CheckReinfTag.cs" />
     <Compile Include="CopyTaskFromElectric.cs" />
-    <Compile Include="CreateToposolidFromExcel.cs" />
+    <Compile Include="CreateSoil\CreateSoil.cs" />
+    <Compile Include="CreateSoil\DirectShapeBuilder.cs" />
+    <Compile Include="CreateSoil\ExcelReader.cs" />
+    <Compile Include="CreateSoil\GeologyBuilder.cs" />
+    <Compile Include="CreateSoil\SoilData.cs" />
+    <Compile Include="CreateSoil\CreateToposolidFromExcel.cs" />
+    <Compile Include="DecorColumns.cs" />
+    <Compile Include="DecorGrids.cs" />
     <Compile Include="ReinforcementList\MainViewReinforcementList.xaml.cs">
       <DependentUpon>MainViewReinforcementList.xaml</DependentUpon>
     </Compile>
