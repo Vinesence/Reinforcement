@@ -105,6 +105,8 @@
     <Compile Include="CreateNewProjectBySchedule.cs" />
     <Compile Include="OpenInstructionsFolder.cs" />
     <Compile Include="SetDotRebarsByDWG.cs" />
+    <Compile Include="SetWorkPlane3D.cs" />
+    <Compile Include="Template.cs" />
     <Compile Include="Test\ChangeReinfFamily.cs" />
     <Compile Include="Test\AddParameterToFamily.cs" />
     <Compile Include="Test\SetParamReinfByElementMark.cs" />
